@@ -766,7 +766,7 @@ Rbc_SetTSOrigin(tkwin, clientPtr, x, y)
 }
 
 #ifdef WIN32
-static int tkpWinRopModes[] = {
+const int tkpWinRopModes[] = {
     R2_BLACK,			/* GXclear */
     R2_MASKPEN,			/* GXand */
     R2_MASKPENNOT,		/* GXandReverse */

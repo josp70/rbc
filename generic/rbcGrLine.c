@@ -882,7 +882,7 @@ static void ValuesToPostScript _ANSI_ARGS_((PsToken psToken, Line *linePtr, Line
 
 #ifdef WIN32
 
-static int tkpWinRopModes[] = {
+const int tkpWinRopModes[] = {
     R2_BLACK,			/* GXclear */
     R2_MASKPEN,			/* GXand */
     R2_MASKPENNOT,		/* GXandReverse */

@@ -50,7 +50,7 @@ typedef struct {
     char dashValues[12];
 } XGCValuesEx;
 
-static int tkpWinRopModes[] = {
+const int tkpWinRopModes[] = {
     R2_BLACK,			/* GXclear */
     R2_MASKPEN,			/* GXand */
     R2_MASKPENNOT,		/* GXandReverse */
